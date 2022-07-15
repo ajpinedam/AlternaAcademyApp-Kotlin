@@ -5,21 +5,12 @@ plugins {
 
 android {
     compileSdk 32
-
-    //27
-
-    //if version < 26
-    //.....
-    //else
-
-
     defaultConfig {
         applicationId "com.pinedax.alternaacademy"
         minSdk 28
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
